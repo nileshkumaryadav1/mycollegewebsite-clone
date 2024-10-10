@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+                   /* navigation bar style */
+
+.navigationbar{
+    width: 100%;
+    height: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogo{
+    width: 350px;
+    height: 130px;
+    background-image: url("navlogokec.png");
+}
+
+.navshortcut{
+  height: 130px;
+  width: 350px;
+  margin-right: 150px;
+}
+
+.navshortcutlink{
+    height: 24px
+}
+.navshortcutlinkall{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-right: 4px;
+    font-family: sans-serif;
+}
+.navshortcutlinkall:hover{
+    text-decoration: underline;
+}
+
+.navshortcutsearch{
+    display: flex;
+    padding: 16px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+}
+
+.navsearchbutton{
+    height: 40px;
+    padding: 14px;
+    width: 185px;
+    display: flex;
+    align-items: start;
+    margin: 4px;
+    background: transparent;
+    border: 1px solid rgb(216, 209, 209);
+}
+
+.searchinput{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.navshortcutsearchicon{
+height: 24px;
+width: 14px;
+padding: 10px;
+margin-bottom: 4px;
+background-color: #f1f1f1;
+border-radius: 10px;
+}
+
+                   /* navpanal style */
+
+.navigationpanel{
+    height: 56px;
+    background-color: #285690;
+    display: flex;
+}
+
+.navpanellink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+    font-family: open sans,sans-serif;
+}
+
+.navpanellinkall{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+.navpanellinkall:hover{
+    text-decoration: underline;
+}
+
+
+                    /* new notice link slider */
+.linkslider{
+    height: 23px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.linksliderlink{
+    text-decoration: none;
+    margin-right: 50px;
+}
+.linksliderlink:hover{
+    text-decoration: underline;
+}
+
+
+                 /* hero main img slider style */
+
+.heroimgslider{
+    width: 100%;
+    height: 400px;
+    background-image: url("heroimg.jpg");
+    background-size: cover;
+}
+
+
+             /* important link and notice and tenders style */
+.infodiv{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imptlinktitle{
+    height: 70px;
+    text-align: center;
+    background-image: url("downarrow.png");
+    background-size:cover;
+    display: flex;
+    font-family: montserrat,sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.importantlink{
+    width: 30%;
+    height: 380px;
+    border: 2px solid black;
+    
+}
+.imptlinkall{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.imptlinkall:hover{
+    color: blue;
+}
+.notification{
+    width: 30%;
+    height: 380px;
+    border: 2px solid black;
+}
+.notices{
+    height: 200px;
+    width: 400px;
+    background-image: url("noticeimg.png");
+    background-size: cover;
+}
+.noticeall{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 142px;
+    font-family: montserrat,sans-serif;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.latesttenders{
+    width: 30%;
+    height: 380px;
+    border: 2px solid black;
+}
+
+.tenderall{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 142px;
+    font-family: montserrat,sans-serif;
+    margin-left: 40%;
+    margin-top: 50%;
+}
+
+
+
+                 /* About college  */
+.collegeinformation{
+    width: 100%;
+    height: 530px;
+    display: flex;
+}
+
+.collegeimg1{
+    width: 55%;
+    margin: 10px;
+    background-image: url("kecimg1.png");
+    background-size: cover;
+}
+
+.collegeinfo{
+    width: 42%;
+    margin: 15px;
+    font-family: montserrat,sans-serif;
+}
+
+
+               /* college achivement photo gallery
+               video gallery
+               map   style */
+.ach{
+    padding: 12px;
+    margin: 10px;
+    font-size: 40px;
+    font-family: montserrat,sans-serif;
+}
+
+.photogallery{
+    height: 380px;
+    padding: 20px 16px 20px 16px;
+    background-color: #eff8ff;
+    font-family: montserrat,sans-serif;
+}
+.gallerytitle{
+    text-decoration: underline;
+}
+.photos{
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.img1{
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-image: url("gallery1.jpeg");
+    background-size: cover;
+}
+.img2{
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-image: url("gallery2.jpeg");
+    background-size: cover;
+}
+.img3{
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-image: url("gallery1.jpeg");
+    background-size: cover;
+}
+
+.btnglry{
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: wheat;
+    background: blue;
+    font-family: montserrat,sans-serif;
+    font-weight: 800;
+    height: 40px;
+    width: 85px;
+    margin-left: 45%;
+}
+
+.divofvidandmap{
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: montserrat,sans-serif;
+
+}
+
+.videogallery{
+    height: 360px;
+    width: 45%;
+    background-color: #60a5fa;
+    font-family: montserrat,sans-serif;
+    padding: 32px 0 32px 0;
+}
+.vdtitle{
+    text-align: center;
+    color: white;
+}
+
+.vid{
+    height: 254px;
+    width: 650px;
+    background-image: url("Videothumbnail.png");
+    background-size: cover;
+    margin: 10px;
+}
+
+.map{
+    height: 422px;
+    width: 45%;
+    background-color: pink;
+    font-family: montserrat,sans-serif;
+}
+.mapofkec{
+    height: 100%;
+    width: 100%;
+    background-image: url("mapimg.png");
+    background-size: cover;
+}
+
+.kecwebteamtitleout{
+    font-size: 25px;
+    text-align: center;
+    background-color: #d1d5db;
+    font-family: montserrat,sans-serif;
+    padding: 8px;
+}
+
+.webteam{
+    height: 400px;
+    font-family: montserrat,sans-serif;
+    padding: 16px;
+}
+
+.listofwebtitle{
+    text-align: center;
+}
+
+.developernilesh{
+    border-top: 1px solid rgb(207, 207, 255);
+}
+
+.nilesh{
+    height: 400px;
+    width: 100%;
+    background-image: url("developerimg.png");
+    background-size: cover;
+}
+
+                                    /* footer style */
+
+.foot{
+    border-top: 1px solid rgb(207, 207, 255);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("bgimg.png");
+    background-size: cover;
+}
+
+.footlogo{
+    width: 250px;
+    height: 90px;
+    background-image: url("navlogokec.png");
+    background-size: cover;
+}
+
+.collegeaddress{
+    padding: 20px;
+    font-family: montserrat,sans-serif;
+}
+
+/* .sociallink{
+    width: 30%;
+} */
+
+.scl{
+    font-family: montserrat,sans-serif;
+}
+
+.sociallinkall{
+    text-decoration: none;
+    color: blue;
+    font-family: montserrat,sans-serif;
+}
+.sociallinkall:hover{
+    text-decoration: underline;
+    /* font-family: montserrat,sans-serif; */
+}
+
+                              /* footer style */
