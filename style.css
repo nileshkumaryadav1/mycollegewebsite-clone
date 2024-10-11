@@ -16,7 +16,8 @@
 .navlogo{
     width: 350px;
     height: 130px;
-    background-image: url("navlogokec.png");
+    /* background-image: url("navlogokec.png"); */
+    cursor: pointer;
 }
 
 .navshortcut{
@@ -45,10 +46,11 @@
     height: 74px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .navsearchbutton{
-    height: 40px;
+    height: 12px;
     padding: 14px;
     width: 185px;
     display: flex;
@@ -56,6 +58,7 @@
     margin: 4px;
     background: transparent;
     border: 1px solid rgb(216, 209, 209);
+
 }
 
 .searchinput{
@@ -162,6 +165,9 @@ border-radius: 10px;
 .imptlinkall:hover{
     color: blue;
 }
+/* .imptlinktitle{
+    margin-top: 20px;
+} */
 .notification{
     width: 30%;
     height: 380px;
@@ -183,6 +189,10 @@ border-radius: 10px;
     font-family: montserrat,sans-serif;
     margin-left: 40%;
     margin-top: 10%;
+    cursor: pointer;
+}
+.noticeall:hover{
+    background-color: #021385;
 }
 
 .latesttenders{
@@ -201,6 +211,10 @@ border-radius: 10px;
     font-family: montserrat,sans-serif;
     margin-left: 40%;
     margin-top: 50%;
+    cursor: pointer;
+}
+.tenderall:hover{
+    background-color: #021385;
 }
 
 
@@ -244,6 +258,7 @@ border-radius: 10px;
 }
 .gallerytitle{
     text-decoration: underline;
+    cursor: pointer;
 }
 .photos{
     height: 270px;
@@ -258,6 +273,7 @@ border-radius: 10px;
     /* border: 1px solid black; */
     background-image: url("gallery1.jpeg");
     background-size: cover;
+    cursor: pointer;
 }
 .img2{
     height: 90%;
@@ -265,6 +281,7 @@ border-radius: 10px;
     /* border: 1px solid black; */
     background-image: url("gallery2.jpeg");
     background-size: cover;
+    cursor: pointer;
 }
 .img3{
     height: 90%;
@@ -272,6 +289,7 @@ border-radius: 10px;
     /* border: 1px solid black; */
     background-image: url("gallery1.jpeg");
     background-size: cover;
+    cursor: pointer;
 }
 
 .btnglry{
@@ -284,6 +302,10 @@ border-radius: 10px;
     height: 40px;
     width: 85px;
     margin-left: 45%;
+    cursor: pointer;
+}
+.btnglry:hover{
+    background-color: #021385;
 }
 
 .divofvidandmap{
@@ -305,14 +327,15 @@ border-radius: 10px;
 .vdtitle{
     text-align: center;
     color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-.vid{
+.vidpic{
     height: 254px;
-    width: 650px;
-    background-image: url("Videothumbnail.png");
-    background-size: cover;
+    width: 640px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .map{
@@ -326,6 +349,7 @@ border-radius: 10px;
     width: 100%;
     background-image: url("mapimg.png");
     background-size: cover;
+    cursor: pointer;
 }
 
 .kecwebteamtitleout{
@@ -337,7 +361,7 @@ border-radius: 10px;
 }
 
 .webteam{
-    height: 400px;
+    height: 550px;
     font-family: montserrat,sans-serif;
     padding: 16px;
 }
@@ -346,15 +370,14 @@ border-radius: 10px;
     text-align: center;
 }
 
-.developernilesh{
+nilesh{
     border-top: 1px solid rgb(207, 207, 255);
+    /* height: 500px; */
 }
 
-.nilesh{
-    height: 400px;
+.devimg{
+    height: 500px;
     width: 100%;
-    background-image: url("developerimg.png");
-    background-size: cover;
 }
 
                                     /* footer style */
@@ -373,18 +396,13 @@ border-radius: 10px;
 .footlogo{
     width: 250px;
     height: 90px;
-    background-image: url("navlogokec.png");
-    background-size: cover;
+    cursor: pointer;
 }
 
 .collegeaddress{
     padding: 20px;
     font-family: montserrat,sans-serif;
 }
-
-/* .sociallink{
-    width: 30%;
-} */
 
 .scl{
     font-family: montserrat,sans-serif;
@@ -397,7 +415,6 @@ border-radius: 10px;
 }
 .sociallinkall:hover{
     text-decoration: underline;
-    /* font-family: montserrat,sans-serif; */
 }
 
                               /* footer style */
