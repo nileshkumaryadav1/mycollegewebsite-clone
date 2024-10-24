@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background-image: url("kecimg1.png");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.slider{
+    width: 500%;
+    position: relative;
+    animation: animate 10s linear infinite;
+    font-family: sans-serif;
+}
+
+.slide{
+    width: 20%;
+    position: relative;
+    float: left;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    font-size: 5em;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    font-family: sans-serif;
+}
+
+.slide{
+    background-size: cover;
+}
+
+
+.slide:nth-child(1)
+{
+    background-image: url("kecimg1.png");
+}
+
+
+.slide:nth-child(2)
+{
+    background-image: url("heroimg.jpg");
+}
+
+.slide:nth-child(3)
+{
+    background-image: url("gallery2.jpeg");
+}
+
+
+.slide:nth-child(4)
+{
+    background-image: url("heroimg.jpg");
+}
+
+
+.slide:nth-child(5)
+{
+    background-image: url("gallery2.jpeg");
+}
+
+@keyframes animate{
+    0%{
+        right: 0%;
+    }
+
+    10%{
+        right: 0%;
+    }
+
+    20%{
+        right: 100%;
+    }
+
+    30%{
+        right: 100%;
+    }
+
+    40%{
+        right: 200%;
+    }
+
+    50%{
+        right: 200%;
+    }
+
+    60%{
+        right: 300%;
+    }
+
+    70%{
+        right: 300%;
+    }
+
+    80%{
+        right: 400%;
+    }
+
+    90%{
+        right: 400%;
+    }
+
+    97%{
+        right: 500%;
+    }
+
+    100%{
+        right: 0%;
+    }
+}

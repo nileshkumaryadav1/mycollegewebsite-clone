@@ -3,10 +3,10 @@
     margin: 0;
 }
 
-                   /* navigation bar style */
+ /*..................... navigation bar style............................... */
 
 .navigationbar{
-    width: 100%;
+    width: 100vw;
     height: 130px;
     padding: 20px;
     display: flex;
@@ -57,7 +57,6 @@
     margin: 4px;
     background: transparent;
     border: 1px solid rgb(216, 209, 209);
-
 }
 
 .searchinput{
@@ -74,12 +73,12 @@ background-color: #f1f1f1;
 border-radius: 10px;
 }
 
-                   /* navpanal style */
+/* ............................navpanal style ....................*/
 
 .navigationpanel{
-    width: 100vw;
+    width: 100;
     height: 56px;
-    background-color: #021385;
+    background-color: #3546b0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -87,6 +86,7 @@ border-radius: 10px;
 }
 
 .navpanellink{
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -101,7 +101,7 @@ border-radius: 10px;
 }
 
 .dropdown{
-    background-color: #021385; 
+    background-color: #3546b0; 
     color: white;
     padding: 19px 1px 19px 5px;
 }
@@ -114,7 +114,7 @@ border-radius: 10px;
 }
 
 
-                    /* new notice link slider */
+/*................................ new notice link slider.................... */
 .linkslider{
     height: 23px;
     padding: 8px;
@@ -124,6 +124,7 @@ border-radius: 10px;
 }
 
 .linksliderlink{
+    color: blue;
     text-decoration: none;
     margin-right: 50px;
 }
@@ -131,20 +132,16 @@ border-radius: 10px;
     text-decoration: underline;
 }
 
-
-                 /* hero main img slider style */
-
-.heroimgslider{
-    width: 100%;
-    height: 400px;
-    background-image: url("heroimg.jpg");
-    background-size: cover;
-}
+/*....................... hero main img slider style .....................*/
 
 
-             /* important link and notice and tenders style */
+ /* hero image slider style is in slider style css file  */
+
+
+/*................. important link and notice and tenders style............ */
+
 .infodiv{
-    width: 100%;
+    width: 100vw;
     height: 420px;
     display: flex;
     justify-content: space-evenly;
@@ -154,19 +151,18 @@ border-radius: 10px;
 .imptlinktitle{
     height: 70px;
     text-align: center;
-    background-image: url("downarrow.png");
-    background-size:cover;
+    background-color: #5161c9;
     display: flex;
     font-family: montserrat,sans-serif;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .importantlink{
     width: 30%;
     height: 380px;
-    border: 2px solid black;
+    border: 2px solid rgb(163, 155, 155);
     
 }
 .imptlinkall{
@@ -182,7 +178,7 @@ border-radius: 10px;
 .notification{
     width: 30%;
     height: 380px;
-    border: 2px solid black;
+    border: 2px solid rgb(176, 170, 170);
 }
 .notices{
     height: 200px;
@@ -198,7 +194,7 @@ border-radius: 10px;
     height: 40px;
     width: 142px;
     font-family: montserrat,sans-serif;
-    margin-left: 40%;
+    margin-left: 36%;
     margin-top: 10%;
     cursor: pointer;
 }
@@ -209,7 +205,7 @@ border-radius: 10px;
 .latesttenders{
     width: 30%;
     height: 380px;
-    border: 2px solid black;
+    border: 2px solid rgb(157, 152, 152);
 }
 
 .tenderall{
@@ -220,8 +216,8 @@ border-radius: 10px;
     height: 40px;
     width: 142px;
     font-family: montserrat,sans-serif;
-    margin-left: 40%;
-    margin-top: 50%;
+    margin-left: 36%;
+    margin-top: 55%;
     cursor: pointer;
 }
 .tenderall:hover{
@@ -230,7 +226,7 @@ border-radius: 10px;
 
 
 
-                 /* About college  */
+/*.......................... About college........................  */
 .collegeinformation{
     width: 100%;
     height: 530px;
@@ -251,9 +247,10 @@ border-radius: 10px;
 }
 
 
-               /* college achivement photo gallery
-               video gallery
-               map   style */
+/* ..........................college achivement photo gallery 
+video gallery
+map style.................................................. */
+
 .ach{
     padding: 12px;
     margin: 10px;
@@ -384,7 +381,8 @@ nilesh{
     width: 100%;
 }
 
-                                    /* footer style */
+
+/*................................. footer style................. */
 
 .foot{
     border-top: 1px solid rgb(207, 207, 255);
@@ -421,4 +419,4 @@ nilesh{
     text-decoration: underline;
 }
 
-                              /* footer style */
+/* ................................footer style end .............. */
