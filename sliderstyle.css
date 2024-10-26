@@ -15,7 +15,7 @@
 .slider{
     width: 500%;
     position: relative;
-    animation: animate 10s linear infinite;
+    animation: animate 15s linear infinite;
     font-family: sans-serif;
 }
 
@@ -53,18 +53,18 @@ h1{
 
 .slide:nth-child(2)
 {
-    background-image: url("heroimg.jpg");
+    background-image: url("heroimg2.jpg");
 }
 
 .slide:nth-child(3)
 {
-    background-image: url("gallery2.jpeg");
+    background-image: url("heroimg3.jpg");
 }
 
 
 .slide:nth-child(4)
 {
-    background-image: url("heroimg.jpg");
+    background-image: url("slideimg1.jpg");
 }
 
 

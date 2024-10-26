@@ -104,6 +104,8 @@ border-radius: 10px;
     background-color: #3546b0; 
     color: white;
     padding: 19px 1px 19px 5px;
+    border: none;
+    appearance: none;
 }
 .dropdown:hover{
     cursor: pointer;
@@ -142,7 +144,7 @@ border-radius: 10px;
 
 .infodiv{
     width: 100vw;
-    height: 420px;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -161,31 +163,45 @@ border-radius: 10px;
 
 .importantlink{
     width: 30%;
-    height: 380px;
+    height: 480px;
     border: 2px solid rgb(163, 155, 155);
-    
 }
 .imptlinkall{
     margin-bottom: 10px;
     text-decoration: none;
-    color: black;
-    padding: 10px;
+    color: blue;
 }
 .imptlinkall:hover{
-    color: blue;
+   text-decoration: underline;
+}
+
+.imptlinkancor{
+    margin: 20px 10px 10px 20px;
 }
 
 .notification{
     width: 30%;
-    height: 380px;
+    height: 480px;
     border: 2px solid rgb(176, 170, 170);
 }
 .notices{
     height: 200px;
     width: 400px;
-    background-image: url("noticeimg.png");
-    background-size: cover;
 }
+
+.notices a{
+    color: blue;
+}
+
+.notices a:hover{
+    text-decoration: underline;
+}
+
+.marqueenotices{
+    padding: 20px;
+    height: 300px;
+}
+
 .noticeall{
     background-color: blue;
     color: white;
@@ -195,7 +211,7 @@ border-radius: 10px;
     width: 142px;
     font-family: montserrat,sans-serif;
     margin-left: 36%;
-    margin-top: 10%;
+    margin-top: 35%;
     cursor: pointer;
 }
 .noticeall:hover{
@@ -204,7 +220,7 @@ border-radius: 10px;
 
 .latesttenders{
     width: 30%;
-    height: 380px;
+    height: 480px;
     border: 2px solid rgb(157, 152, 152);
 }
 
@@ -217,7 +233,7 @@ border-radius: 10px;
     width: 142px;
     font-family: montserrat,sans-serif;
     margin-left: 36%;
-    margin-top: 55%;
+    margin-top: 81%;
     cursor: pointer;
 }
 .tenderall:hover{
@@ -279,7 +295,7 @@ map style.................................................. */
     height: 90%;
     width: 30%;
     /* border: 1px solid black; */
-    background-image: url("gallery1.jpeg");
+    background-image: url("heroimg2.jpg");
     background-size: cover;
     cursor: pointer;
 }
@@ -295,7 +311,7 @@ map style.................................................. */
     height: 90%;
     width: 30%;
     /* border: 1px solid black; */
-    background-image: url("gallery1.jpeg");
+    background-image: url("heroimg3.jpg");
     background-size: cover;
     cursor: pointer;
 }
