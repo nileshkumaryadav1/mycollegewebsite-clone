@@ -64,13 +64,13 @@ h1{
 
 .slide:nth-child(4)
 {
-    background-image: url("slideimg1.jpg");
+    background-image: url("gallery2.jpeg");
 }
 
 
 .slide:nth-child(5)
 {
-    background-image: url("gallery2.jpeg");
+    background-image: url("heroimg2.jpg");
 }
 
 @keyframes animate{

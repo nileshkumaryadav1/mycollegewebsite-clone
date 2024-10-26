@@ -369,6 +369,8 @@ a{
     text-decoration: none;
     color: white;
 }
+
+/* .................dev detail style....................... */
 .kecwebteamtitleout{
     font-size: 25px;
     text-align: center;
@@ -387,16 +389,9 @@ a{
     text-align: center;
 }
 
-nilesh{
-    border-top: 1px solid rgb(207, 207, 255);
-    /* height: 500px; */
+.devdetail{
+    height: 94%;
 }
-
-.devimg{
-    height: 500px;
-    width: 100%;
-}
-
 
 /*................................. footer style................. */
 
