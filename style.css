@@ -370,7 +370,7 @@ a{
     color: white;
 }
 
-/* .................dev detail style....................... */
+/* .................web dev detail style....................... */
 .kecwebteamtitleout{
     font-size: 25px;
     text-align: center;
@@ -419,6 +419,10 @@ a{
 
 .scl{
     font-family: montserrat,sans-serif;
+}
+
+.sociallink ul{
+    list-style-type: none;
 }
 
 .sociallinkall{
