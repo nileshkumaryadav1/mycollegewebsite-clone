@@ -76,7 +76,7 @@ border-radius: 10px;
 /* ............................navpanal style ....................*/
 
 .navigationpanel{
-    width: 100;
+    width: 100vw;
     height: 56px;
     background-color: #3546b0;
     display: flex;
@@ -86,7 +86,7 @@ border-radius: 10px;
 }
 
 .navpanellink{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -264,6 +264,8 @@ border-radius: 10px;
 
 .collegeinfo p{
     line-height: 22px;
+    text-align: justify;
+    overflow: auto;
 }
 
 /* ..........................college achivement photo gallery 
